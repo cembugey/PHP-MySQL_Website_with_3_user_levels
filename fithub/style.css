@@ -1,0 +1,46 @@
+
+main{
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  min-height: 1100px;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('./img/gym4.jpg');
+}
+.background-member{
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  min-height: 1100px;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('./img/gym.jpg');
+}
+.background-admin{
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  min-height: 1100px;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url('./img/gym2.jpg');
+}
+footer{
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    );
+}
+
+/* To make full page logout animation */
+.ui.active.dimmer{
+  height: 100vh;
+}
